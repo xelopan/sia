@@ -22,8 +22,9 @@ Beberapa pengetahuan dasar yang dibutuhkan untuk mengembangkan Aplikasi Web berb
 
 1. Dasar Bahasa Pemrograman Python  
    (Pembelajaran: [http://www.learnpython.org](http://www.learnpython.org/))
-2. asfaf
-3. saf
+2. Menggunakan Django  
+   (Pembelajaran: [http://realdjango.herokuapp.com/](http://realdjango.herokuapp.com/))
+
 
 # Struktur SIA
 ---
