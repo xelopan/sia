@@ -36,9 +36,12 @@ Beberapa pengetahuan dasar yang dibutuhkan untuk mengembangkan Aplikasi Web berb
 3. Pelajaran
 4. Jadwal
 5. Kelas
+6. Kalender Akademik
 
 ##### ERD
 `draft version`
 ![image](https://dl.dropboxusercontent.com/u/83059892/SIA/ERD-SIA.png)
 
 [Unduh ERD](https://dl.dropboxusercontent.com/u/83059892/SIA/SIA-ERD.vdx) *(format: Microsoft Visio)*
+
+[Refensi Simbol ERD](https://dl.dropboxusercontent.com/u/83059892/SIA/referensi-membaca-ERD.png)
