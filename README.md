@@ -8,9 +8,7 @@ dengan tujuan sebagai:
 
 1. Tempat *sharing* pengetahuan sekitar pemrograman **Python Django** dan mengembangkan kemampuan dalam membuat Aplikasi Web baik secara teori maupun praktek
 2. Membuat aplikasi yang dapat digunakan secara nyata dan berguna pada **Instansi Akademis** (Sekolah)
-3. ...
-4. ...
-5. ...
+
 
 ### Coding-Style
 
@@ -24,6 +22,30 @@ Beberapa pengetahuan dasar yang dibutuhkan untuk mengembangkan Aplikasi Web berb
    (Pembelajaran: [http://www.learnpython.org](http://www.learnpython.org/))
 2. Menggunakan Django  
    (Pembelajaran: [http://realdjango.herokuapp.com/](http://realdjango.herokuapp.com/))
+
+
+# Menginstall SIA
+---
+### Lingkungan Development
+**Requirement**
+
+1. Django 1.6.2  
+   `pip install Django==1.6.2`
+2. Django Suit  
+   `pip install django-suit==0.2.5`
+
+**Install SIA**
+
+`git clone https://github.com/django-developer-indonesia/sia.git`
+
+**Setup**
+
+`./manage.py syncdb`
+
+**Menjalankan SIA**
+
+`./manage.py runserver`
+
 
 
 # Struktur SIA
