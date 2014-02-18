@@ -1,5 +1,6 @@
 #SIA (Sistem Informasi Akademik)
 ---
+![image](https://dl.dropboxusercontent.com/u/83059892/SIA/beranda.png)
 
 ### Tentang SIA
 
