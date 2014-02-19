@@ -57,11 +57,12 @@ Beberapa pengetahuan dasar yang dibutuhkan untuk mengembangkan Aplikasi Web berb
 1. Siswa
 2. Guru
 3. Pelajaran
-4. Jadwal
-5. Jurusan
-6. Kelas
-7. Jenis Agenda
-8. Kalender Akademik
+4. Kelas
+5. Pengajaran
+6. Jadwal
+7. Jurusan
+8. Jenis Agenda
+9. Kalender Akademik
 
 ##### ERD
 `draft version`

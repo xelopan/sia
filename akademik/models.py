@@ -11,6 +11,15 @@ AGAMA = (
     (3, 'Hindu'),
     (4, 'Budha'),
 )
+HARI = (
+    (0, 'Senin'),
+    (1, 'Selasa'),
+    (2, 'Rabu'),
+    (3, 'Kamis'),
+    (4, 'Jumat'),
+    (5, 'Sabtu'),
+    (6, 'Minggu'),
+)
 
 
 class Biodata(models.Model):
@@ -77,6 +86,31 @@ class MataPelajaran(models.Model):
 
     def __unicode__(self):
         return self.nama
+
+
+class Pengajaran(models.Model):
+    mata_pelajaran = models.ForeignKey(MataPelajaran)
+    kelas = models.ForeignKey(Kelas)
+    pengajar = models.ForeignKey(Guru)
+
+    class Meta:
+        verbose_name_plural = 'pengajaran'
+
+    def __unicode__(self):
+        return '%s' % (self.mata_pelajaran,)
+
+
+class Jadwal(models.Model):
+    pengajaran = models.ForeignKey(Pengajaran)
+    hari = models.SmallIntegerField(choices=HARI)
+    mulai = models.TimeField()
+    selesai = models.TimeField()
+
+    class Meta:
+        verbose_name_plural = 'jadwal'
+
+    def __unicode__(self):
+        return '%s' % (self.hari,)
 
 
 class JenisAgenda(models.Model):
